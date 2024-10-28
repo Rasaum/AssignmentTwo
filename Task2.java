@@ -19,7 +19,7 @@ public class Task2 {
     }
 
     public static void main(String[] args) {
-        String filePath = "C:/Users/Raissa Umwali/Downloads/task2-input.txt";
+        String filePath = "task2-input.txt";
 
         PriorityQueue<Job> pq = new PriorityQueue<>(Comparator.comparingInt((Job j) -> j.prioClass).thenComparingInt(j -> j.procTime));
 
