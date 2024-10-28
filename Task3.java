@@ -16,7 +16,7 @@ public class Task3 {
     }
 
     public static void main(String[] args) {
-        String filePath = "C:/Users/Raissa Umwali/Downloads/task3-input.txt";
+        String filePath = "task3-input.txt";
 
         PriorityQueue<Job> pq = new PriorityQueue<>(Comparator.comparingInt((Job j) -> j.procTime));
 
